@@ -8,14 +8,18 @@
                         <ion-buttons slot="start">
                             <ion-menu-button></ion-menu-button>
                         </ion-buttons>
-                        <ion-title>Home</ion-title>
+                        <ion-title>Communes</ion-title>
                     </ion-toolbar>
                 </ion-header>
                 <ion-content class="ion-padding">
-                    <Welcome/>
+
+                    <commonForm/>
+
                 </ion-content>
             </div>
         </ion-app>
+        <!--    <ion-menu-controller></ion-menu-controller>-->
+
     </div>
 </template>
 
@@ -24,6 +28,8 @@
     // import HelloWorld from '@/components/HelloWorld.vue'
     import Nav from '@/components/Nav.vue'
     import Welcome from '@/components/Welcome.vue'
+    import CommonForm from '@/components/CommonForm.vue'
+
 
 
 
@@ -32,7 +38,8 @@
         components: {
             // HelloWorld,
             Nav,
-            Welcome
+            Welcome,
+            CommonForm
         }
     }
 </script>

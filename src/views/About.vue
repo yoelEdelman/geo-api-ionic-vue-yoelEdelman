@@ -1,5 +1,63 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<!--<template>-->
+<!--  <div>-->
+
+<!--    <ion-app>-->
+<!--      <ion-menu side="start">-->
+<!--        <ion-header>-->
+<!--          <ion-toolbar translucent>-->
+<!--            <ion-title>Menu</ion-title>-->
+<!--          </ion-toolbar>-->
+<!--        </ion-header>-->
+<!--        <ion-content>-->
+<!--          <ion-list>-->
+<!--            <ion-item>-->
+<!--              <ion-icon name="home" slot="start"></ion-icon>-->
+<!--              <ion-label>Home</ion-label>-->
+<!--            </ion-item>-->
+<!--            <ion-item>-->
+<!--              <ion-icon name="person" slot="start"></ion-icon>-->
+<!--              <ion-label>Profile</ion-label>-->
+<!--            </ion-item>-->
+<!--            <ion-item>-->
+<!--              <ion-icon name="chatbubbles" slot="start"></ion-icon>-->
+<!--              <ion-label>Messages</ion-label>-->
+<!--            </ion-item>-->
+<!--            <ion-item>-->
+<!--              <ion-icon name="settings" slot="start"></ion-icon>-->
+<!--              <ion-label>Settings</ion-label>-->
+<!--            </ion-item>-->
+<!--          </ion-list>-->
+<!--        </ion-content>-->
+<!--      </ion-menu>-->
+
+<!--      <div class="ion-page" main>-->
+<!--        <ion-header>-->
+<!--          <ion-toolbar>-->
+<!--            <ion-buttons slot="start">-->
+<!--              <ion-menu-button></ion-menu-button>-->
+<!--            </ion-buttons>-->
+<!--            <ion-title>Home</ion-title>-->
+<!--          </ion-toolbar>-->
+<!--        </ion-header>-->
+<!--        <ion-content class="ion-padding">-->
+<!--&lt;!&ndash;          <ion-button expand="block" onclick="openMenu()">Open Menu</ion-button>&ndash;&gt;-->
+<!--        </ion-content>-->
+<!--      </div>-->
+<!--    </ion-app>-->
+<!--&lt;!&ndash;    <ion-menu-controller></ion-menu-controller>&ndash;&gt;-->
+<!--  </div>-->
+<!--</template>-->
+
+<!--<script>-->
+<!--  export default {-->
+<!--    name: "nav",-->
+<!--    data() {-->
+<!--      return {-->
+
+<!--      }-->
+<!--    },-->
+<!--    methods: {-->
+
+<!--    }-->
+<!--  }-->
+<!--</script>-->

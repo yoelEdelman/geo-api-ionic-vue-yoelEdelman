@@ -8,14 +8,18 @@
                         <ion-buttons slot="start">
                             <ion-menu-button></ion-menu-button>
                         </ion-buttons>
-                        <ion-title>Home</ion-title>
+                        <ion-title>Region</ion-title>
                     </ion-toolbar>
                 </ion-header>
                 <ion-content class="ion-padding">
-                    <Welcome/>
+                    <!--                    <ion-router-link  href="/common">Communes</ion-router-link >-->
+
+                    <RegionForm/>
                 </ion-content>
             </div>
         </ion-app>
+        <!--    <ion-menu-controller></ion-menu-controller>-->
+
     </div>
 </template>
 
@@ -24,12 +28,14 @@
     // import HelloWorld from '@/components/HelloWorld.vue'
     import Nav from '@/components/Nav.vue'
     import Welcome from '@/components/Welcome.vue'
+    import RegionForm from "../components/RegionForm";
 
 
 
     export default {
         name: 'home',
         components: {
+            RegionForm,
             // HelloWorld,
             Nav,
             Welcome
